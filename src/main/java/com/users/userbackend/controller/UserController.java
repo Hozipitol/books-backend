@@ -77,7 +77,7 @@ public class UserController {
 //            throw new UserNotFoundException(id);
 //        }
         userRepository.deleteByIsbn(isbn);
-        return "User with id has been deleted";
+        return "Book with the given isbn has been deleted";
     }
 
 
